@@ -1,0 +1,6 @@
+framework module SwiftStarRatting {
+  umbrella header "SwiftStarRatting-umbrella.h"
+
+  export *
+  module * { export * }
+}

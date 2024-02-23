@@ -1,0 +1,16 @@
+PODS:
+  - SwiftStarRatting (0.1.0)
+
+DEPENDENCIES:
+  - SwiftStarRatting (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftStarRatting:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftStarRatting: be55fcc6862756ae5f63ca2afa1f6a15a710e5e6
+
+PODFILE CHECKSUM: c780d934b8036dd6c8bdc3ff23dd7c8ee1297ea0
+
+COCOAPODS: 1.15.0

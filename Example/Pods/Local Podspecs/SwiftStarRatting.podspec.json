@@ -1,0 +1,22 @@
+{
+  "name": "SwiftStarRatting",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftStarRatting.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/87113814/SwiftStarRatting",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "87113814": "narendra.singh@mindinventory.com"
+  },
+  "source": {
+    "git": "https://github.com/87113814/SwiftStarRatting.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SwiftStarRatting/Classes/**/*"
+}

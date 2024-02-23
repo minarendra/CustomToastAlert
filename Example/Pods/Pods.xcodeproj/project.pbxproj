@@ -151,7 +151,7 @@
 		5248B0E3BE496E6C639E61FD0322AD54 /* SwiftStarRatting */ = {
 			isa = PBXGroup;
 			children = (
-				B8DD40732B88BC560086FE09 /* Classes */,
+				B8DD40732B88BC560086FE09 /* Sources */,
 				E9AAE87110ABB4837BCFB05E74956CE6 /* Pod */,
 				85305036CF7ADF794BF321A20C39DC97 /* Support Files */,
 			);
@@ -234,15 +234,7 @@
 			path = "Target Support Files/Pods-SwiftStarRatting_Tests";
 			sourceTree = "<group>";
 		};
-		B8DD40732B88BC560086FE09 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B8DD40742B88BC560086FE09 /* Toast */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		B8DD40742B88BC560086FE09 /* Toast */ = {
+		B8DD40732B88BC560086FE09 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				B8DD40752B88BC560086FE09 /* ToastConfiguration.swift */,
@@ -256,7 +248,7 @@
 				B8DD40842B88BC560086FE09 /* Toast.swift */,
 				B8DD40852B88BC560086FE09 /* Direction.swift */,
 			);
-			path = Toast;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		B8DD40782B88BC560086FE09 /* ToastViews */ = {

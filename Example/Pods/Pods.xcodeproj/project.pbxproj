@@ -11,10 +11,37 @@
 		0B4CBAF9B5543EB6676871C19A3D8E69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		193D45B02C0DD108532267D3A906EA5C /* Pods-SwiftStarRatting_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F628B146DBFFFE73002C25F9414E115 /* Pods-SwiftStarRatting_Example-dummy.m */; };
 		3B41370A90E7C3C7306F3529F6F7C310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3CAFB7B83B8EE89A3E2E45950B2BF83D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363E698B09B5EA508A627B209B4378D7 /* ReplaceMe.swift */; };
 		680F449BB93C16C95705641A70EC1D49 /* Pods-SwiftStarRatting_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 287A5910B8977E58AC0EE2A5386EEFA3 /* Pods-SwiftStarRatting_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7238A5295262142D8CA946D8AD252E5B /* SwiftStarRatting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B906B0DA91FA5132C1BCF0CD427C4E35 /* SwiftStarRatting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A3236E247826667AC0C4FEBE9808A7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B8DD40862B88BC560086FE09 /* ToastConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40752B88BC560086FE09 /* ToastConfiguration.swift */; };
+		B8DD40872B88BC560086FE09 /* ToastConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40752B88BC560086FE09 /* ToastConfiguration.swift */; };
+		B8DD40882B88BC560086FE09 /* ToastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40762B88BC560086FE09 /* ToastDelegate.swift */; };
+		B8DD40892B88BC560086FE09 /* ToastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40762B88BC560086FE09 /* ToastDelegate.swift */; };
+		B8DD408A2B88BC560086FE09 /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40772B88BC560086FE09 /* MulticastDelegate.swift */; };
+		B8DD408B2B88BC560086FE09 /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40772B88BC560086FE09 /* MulticastDelegate.swift */; };
+		B8DD408C2B88BC560086FE09 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40792B88BC560086FE09 /* ToastView.swift */; };
+		B8DD408D2B88BC560086FE09 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40792B88BC560086FE09 /* ToastView.swift */; };
+		B8DD408E2B88BC560086FE09 /* AppleToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD407B2B88BC560086FE09 /* AppleToastView.swift */; };
+		B8DD408F2B88BC560086FE09 /* AppleToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD407B2B88BC560086FE09 /* AppleToastView.swift */; };
+		B8DD40902B88BC560086FE09 /* TextAppleToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD407C2B88BC560086FE09 /* TextAppleToastView.swift */; };
+		B8DD40912B88BC560086FE09 /* TextAppleToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD407C2B88BC560086FE09 /* TextAppleToastView.swift */; };
+		B8DD40922B88BC560086FE09 /* IconAppleToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD407D2B88BC560086FE09 /* IconAppleToastView.swift */; };
+		B8DD40932B88BC560086FE09 /* IconAppleToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD407D2B88BC560086FE09 /* IconAppleToastView.swift */; };
+		B8DD40942B88BC560086FE09 /* ToastHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD407E2B88BC560086FE09 /* ToastHelper.swift */; };
+		B8DD40952B88BC560086FE09 /* ToastHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD407E2B88BC560086FE09 /* ToastHelper.swift */; };
+		B8DD40962B88BC560086FE09 /* ToastViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD407F2B88BC560086FE09 /* ToastViewConfiguration.swift */; };
+		B8DD40972B88BC560086FE09 /* ToastViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD407F2B88BC560086FE09 /* ToastViewConfiguration.swift */; };
+		B8DD40982B88BC560086FE09 /* ToastQueueDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40812B88BC560086FE09 /* ToastQueueDelegate.swift */; };
+		B8DD40992B88BC560086FE09 /* ToastQueueDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40812B88BC560086FE09 /* ToastQueueDelegate.swift */; };
+		B8DD409A2B88BC560086FE09 /* ToastQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40822B88BC560086FE09 /* ToastQueue.swift */; };
+		B8DD409B2B88BC560086FE09 /* ToastQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40822B88BC560086FE09 /* ToastQueue.swift */; };
+		B8DD409C2B88BC560086FE09 /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40832B88BC560086FE09 /* AnimationType.swift */; };
+		B8DD409D2B88BC560086FE09 /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40832B88BC560086FE09 /* AnimationType.swift */; };
+		B8DD409E2B88BC560086FE09 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40842B88BC560086FE09 /* Toast.swift */; };
+		B8DD409F2B88BC560086FE09 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40842B88BC560086FE09 /* Toast.swift */; };
+		B8DD40A02B88BC560086FE09 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40852B88BC560086FE09 /* Direction.swift */; };
+		B8DD40A12B88BC560086FE09 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DD40852B88BC560086FE09 /* Direction.swift */; };
 		CA9D1220220894CAA0CE16B40D6AD4DE /* Pods-SwiftStarRatting_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A5FDF7A849EC922BFF8D5BBFAA6C92 /* Pods-SwiftStarRatting_Tests-dummy.m */; };
 		EC654D0177BC6D9722C8C501A487A0C7 /* Pods-SwiftStarRatting_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D17C0FF35BF6A52AFF54FF0475AB2E4E /* Pods-SwiftStarRatting_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -40,26 +67,39 @@
 		09A72B43A2BE03E36A10D2869E2899AD /* SwiftStarRatting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftStarRatting.modulemap; sourceTree = "<group>"; };
 		287A5910B8977E58AC0EE2A5386EEFA3 /* Pods-SwiftStarRatting_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftStarRatting_Example-umbrella.h"; sourceTree = "<group>"; };
 		2A638752915F51B26A3A7A5F1FB77D8B /* Pods-SwiftStarRatting_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftStarRatting_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		363E698B09B5EA508A627B209B4378D7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftStarRatting/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		39AB977292373156843B612187F1C495 /* SwiftStarRatting.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftStarRatting.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		39AB977292373156843B612187F1C495 /* SwiftStarRatting.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftStarRatting.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F628B146DBFFFE73002C25F9414E115 /* Pods-SwiftStarRatting_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftStarRatting_Example-dummy.m"; sourceTree = "<group>"; };
 		4B11C68D2FF9010BB29EC331CDF48E92 /* Pods-SwiftStarRatting_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftStarRatting_Tests-Info.plist"; sourceTree = "<group>"; };
 		53975E2019BC638A3CA57DBD52E9AE58 /* Pods-SwiftStarRatting_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftStarRatting_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5539A6CD64B7BC100D26FF46ADF6F6D8 /* Pods-SwiftStarRatting_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftStarRatting_Tests"; path = Pods_SwiftStarRatting_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5539A6CD64B7BC100D26FF46ADF6F6D8 /* Pods_SwiftStarRatting_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftStarRatting_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5740072F182842A495D4BDD185E4D1ED /* SwiftStarRatting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftStarRatting.release.xcconfig; sourceTree = "<group>"; };
 		5E1FBC2782C142309D91C846644466D5 /* Pods-SwiftStarRatting_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftStarRatting_Example-frameworks.sh"; sourceTree = "<group>"; };
-		638AF5BA82DDEEB16FA612DBE11FD0E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		66093155A0EE893F855327A43D4EA42E /* SwiftStarRatting */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftStarRatting; path = SwiftStarRatting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		638AF5BA82DDEEB16FA612DBE11FD0E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		66093155A0EE893F855327A43D4EA42E /* SwiftStarRatting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftStarRatting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A583752B885B4162D435A11D79C82F9 /* Pods-SwiftStarRatting_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftStarRatting_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		70B3C3463A7B90879DCF769B25C60A91 /* SwiftStarRatting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftStarRatting-dummy.m"; sourceTree = "<group>"; };
 		71A5FDF7A849EC922BFF8D5BBFAA6C92 /* Pods-SwiftStarRatting_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftStarRatting_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		88606FFBC933D78D93FC0837D1D68438 /* Pods-SwiftStarRatting_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftStarRatting_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA46E287479BFDA47E1A332C3E73AF81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA46E287479BFDA47E1A332C3E73AF81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AF845DA840A873E3AD5A22AF356F71B2 /* SwiftStarRatting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftStarRatting-prefix.pch"; sourceTree = "<group>"; };
-		B2677B9E165B762ABF420EB3EF6CA281 /* Pods-SwiftStarRatting_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftStarRatting_Example"; path = Pods_SwiftStarRatting_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2677B9E165B762ABF420EB3EF6CA281 /* Pods_SwiftStarRatting_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftStarRatting_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4B39F2E3476944CAEF0C1621D96D2F3 /* Pods-SwiftStarRatting_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftStarRatting_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B8DD40752B88BC560086FE09 /* ToastConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastConfiguration.swift; sourceTree = "<group>"; };
+		B8DD40762B88BC560086FE09 /* ToastDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastDelegate.swift; sourceTree = "<group>"; };
+		B8DD40772B88BC560086FE09 /* MulticastDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulticastDelegate.swift; sourceTree = "<group>"; };
+		B8DD40792B88BC560086FE09 /* ToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		B8DD407B2B88BC560086FE09 /* AppleToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleToastView.swift; sourceTree = "<group>"; };
+		B8DD407C2B88BC560086FE09 /* TextAppleToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextAppleToastView.swift; sourceTree = "<group>"; };
+		B8DD407D2B88BC560086FE09 /* IconAppleToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconAppleToastView.swift; sourceTree = "<group>"; };
+		B8DD407E2B88BC560086FE09 /* ToastHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastHelper.swift; sourceTree = "<group>"; };
+		B8DD407F2B88BC560086FE09 /* ToastViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastViewConfiguration.swift; sourceTree = "<group>"; };
+		B8DD40812B88BC560086FE09 /* ToastQueueDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastQueueDelegate.swift; sourceTree = "<group>"; };
+		B8DD40822B88BC560086FE09 /* ToastQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastQueue.swift; sourceTree = "<group>"; };
+		B8DD40832B88BC560086FE09 /* AnimationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
+		B8DD40842B88BC560086FE09 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		B8DD40852B88BC560086FE09 /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		B906B0DA91FA5132C1BCF0CD427C4E35 /* SwiftStarRatting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftStarRatting-umbrella.h"; sourceTree = "<group>"; };
 		BFED53655A4B0EB7E3A0EA0132A249CD /* SwiftStarRatting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftStarRatting.debug.xcconfig; sourceTree = "<group>"; };
 		C65671B2F20173D9CA93F972F000D545 /* Pods-SwiftStarRatting_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftStarRatting_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -111,7 +151,7 @@
 		5248B0E3BE496E6C639E61FD0322AD54 /* SwiftStarRatting */ = {
 			isa = PBXGroup;
 			children = (
-				363E698B09B5EA508A627B209B4378D7 /* ReplaceMe.swift */,
+				B8DD40732B88BC560086FE09 /* Classes */,
 				E9AAE87110ABB4837BCFB05E74956CE6 /* Pod */,
 				85305036CF7ADF794BF321A20C39DC97 /* Support Files */,
 			);
@@ -130,9 +170,9 @@
 		6942C78B5AAC8F31717EC29AEF4B389D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2677B9E165B762ABF420EB3EF6CA281 /* Pods-SwiftStarRatting_Example */,
-				5539A6CD64B7BC100D26FF46ADF6F6D8 /* Pods-SwiftStarRatting_Tests */,
-				66093155A0EE893F855327A43D4EA42E /* SwiftStarRatting */,
+				B2677B9E165B762ABF420EB3EF6CA281 /* Pods_SwiftStarRatting_Example.framework */,
+				5539A6CD64B7BC100D26FF46ADF6F6D8 /* Pods_SwiftStarRatting_Tests.framework */,
+				66093155A0EE893F855327A43D4EA42E /* SwiftStarRatting.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,6 +232,59 @@
 			);
 			name = "Pods-SwiftStarRatting_Tests";
 			path = "Target Support Files/Pods-SwiftStarRatting_Tests";
+			sourceTree = "<group>";
+		};
+		B8DD40732B88BC560086FE09 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD40742B88BC560086FE09 /* Toast */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B8DD40742B88BC560086FE09 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD40752B88BC560086FE09 /* ToastConfiguration.swift */,
+				B8DD40762B88BC560086FE09 /* ToastDelegate.swift */,
+				B8DD40772B88BC560086FE09 /* MulticastDelegate.swift */,
+				B8DD40782B88BC560086FE09 /* ToastViews */,
+				B8DD407E2B88BC560086FE09 /* ToastHelper.swift */,
+				B8DD407F2B88BC560086FE09 /* ToastViewConfiguration.swift */,
+				B8DD40802B88BC560086FE09 /* Queue */,
+				B8DD40832B88BC560086FE09 /* AnimationType.swift */,
+				B8DD40842B88BC560086FE09 /* Toast.swift */,
+				B8DD40852B88BC560086FE09 /* Direction.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		B8DD40782B88BC560086FE09 /* ToastViews */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD40792B88BC560086FE09 /* ToastView.swift */,
+				B8DD407A2B88BC560086FE09 /* AppleToastView */,
+			);
+			path = ToastViews;
+			sourceTree = "<group>";
+		};
+		B8DD407A2B88BC560086FE09 /* AppleToastView */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD407B2B88BC560086FE09 /* AppleToastView.swift */,
+				B8DD407C2B88BC560086FE09 /* TextAppleToastView.swift */,
+				B8DD407D2B88BC560086FE09 /* IconAppleToastView.swift */,
+			);
+			path = AppleToastView;
+			sourceTree = "<group>";
+		};
+		B8DD40802B88BC560086FE09 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD40812B88BC560086FE09 /* ToastQueueDelegate.swift */,
+				B8DD40822B88BC560086FE09 /* ToastQueue.swift */,
+			);
+			path = Queue;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -269,7 +362,7 @@
 			);
 			name = "Pods-SwiftStarRatting_Example";
 			productName = Pods_SwiftStarRatting_Example;
-			productReference = B2677B9E165B762ABF420EB3EF6CA281 /* Pods-SwiftStarRatting_Example */;
+			productReference = B2677B9E165B762ABF420EB3EF6CA281 /* Pods_SwiftStarRatting_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6A0B5301432418A4F62E266A6049AFEF /* Pods-SwiftStarRatting_Tests */ = {
@@ -288,7 +381,7 @@
 			);
 			name = "Pods-SwiftStarRatting_Tests";
 			productName = Pods_SwiftStarRatting_Tests;
-			productReference = 5539A6CD64B7BC100D26FF46ADF6F6D8 /* Pods-SwiftStarRatting_Tests */;
+			productReference = 5539A6CD64B7BC100D26FF46ADF6F6D8 /* Pods_SwiftStarRatting_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FC784C4847526DE2061E32B560C0F3A8 /* SwiftStarRatting */ = {
@@ -306,7 +399,7 @@
 			);
 			name = SwiftStarRatting;
 			productName = SwiftStarRatting;
-			productReference = 66093155A0EE893F855327A43D4EA42E /* SwiftStarRatting */;
+			productReference = 66093155A0EE893F855327A43D4EA42E /* SwiftStarRatting.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -367,7 +460,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8DD40882B88BC560086FE09 /* ToastDelegate.swift in Sources */,
+				B8DD40962B88BC560086FE09 /* ToastViewConfiguration.swift in Sources */,
+				B8DD40942B88BC560086FE09 /* ToastHelper.swift in Sources */,
+				B8DD40862B88BC560086FE09 /* ToastConfiguration.swift in Sources */,
 				193D45B02C0DD108532267D3A906EA5C /* Pods-SwiftStarRatting_Example-dummy.m in Sources */,
+				B8DD409C2B88BC560086FE09 /* AnimationType.swift in Sources */,
+				B8DD40902B88BC560086FE09 /* TextAppleToastView.swift in Sources */,
+				B8DD40922B88BC560086FE09 /* IconAppleToastView.swift in Sources */,
+				B8DD40A02B88BC560086FE09 /* Direction.swift in Sources */,
+				B8DD408A2B88BC560086FE09 /* MulticastDelegate.swift in Sources */,
+				B8DD40982B88BC560086FE09 /* ToastQueueDelegate.swift in Sources */,
+				B8DD408C2B88BC560086FE09 /* ToastView.swift in Sources */,
+				B8DD408E2B88BC560086FE09 /* AppleToastView.swift in Sources */,
+				B8DD409A2B88BC560086FE09 /* ToastQueue.swift in Sources */,
+				B8DD409E2B88BC560086FE09 /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,8 +490,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CAFB7B83B8EE89A3E2E45950B2BF83D /* ReplaceMe.swift in Sources */,
+				B8DD40892B88BC560086FE09 /* ToastDelegate.swift in Sources */,
+				B8DD40972B88BC560086FE09 /* ToastViewConfiguration.swift in Sources */,
+				B8DD40952B88BC560086FE09 /* ToastHelper.swift in Sources */,
+				B8DD40872B88BC560086FE09 /* ToastConfiguration.swift in Sources */,
 				08AADF5F7A1FED1B2CC65E525AFB4DFD /* SwiftStarRatting-dummy.m in Sources */,
+				B8DD409D2B88BC560086FE09 /* AnimationType.swift in Sources */,
+				B8DD40912B88BC560086FE09 /* TextAppleToastView.swift in Sources */,
+				B8DD40932B88BC560086FE09 /* IconAppleToastView.swift in Sources */,
+				B8DD40A12B88BC560086FE09 /* Direction.swift in Sources */,
+				B8DD408B2B88BC560086FE09 /* MulticastDelegate.swift in Sources */,
+				B8DD40992B88BC560086FE09 /* ToastQueueDelegate.swift in Sources */,
+				B8DD408D2B88BC560086FE09 /* ToastView.swift in Sources */,
+				B8DD408F2B88BC560086FE09 /* AppleToastView.swift in Sources */,
+				B8DD409B2B88BC560086FE09 /* ToastQueue.swift in Sources */,
+				B8DD409F2B88BC560086FE09 /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,13 +576,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -484,7 +603,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftStarRatting_Example/Pods-SwiftStarRatting_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftStarRatting_Example/Pods-SwiftStarRatting_Example.modulemap";
@@ -517,7 +636,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftStarRatting/SwiftStarRatting-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftStarRatting/SwiftStarRatting-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftStarRatting/SwiftStarRatting.modulemap";
 				PRODUCT_MODULE_NAME = SwiftStarRatting;
@@ -549,7 +668,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftStarRatting_Example/Pods-SwiftStarRatting_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftStarRatting_Example/Pods-SwiftStarRatting_Example.modulemap";
@@ -620,7 +739,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -649,7 +768,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftStarRatting/SwiftStarRatting-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftStarRatting/SwiftStarRatting-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftStarRatting/SwiftStarRatting.modulemap";
 				PRODUCT_MODULE_NAME = SwiftStarRatting;
@@ -680,7 +799,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftStarRatting_Tests/Pods-SwiftStarRatting_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftStarRatting_Tests/Pods-SwiftStarRatting_Tests.modulemap";
@@ -713,7 +832,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftStarRatting_Tests/Pods-SwiftStarRatting_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftStarRatting_Tests/Pods-SwiftStarRatting_Tests.modulemap";

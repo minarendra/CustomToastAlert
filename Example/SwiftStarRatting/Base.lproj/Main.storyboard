@@ -20,17 +20,28 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ws5-yf-Xfl">
-                                <rect key="frame" x="150" y="316" width="75" height="35"/>
+                                <rect key="frame" x="154.5" y="316" width="66" height="35"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Show"/>
                                 <connections>
                                     <action selector="btnShowToast:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ox2-Nr-HqZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWb-cM-0wM">
+                                <rect key="frame" x="154.5" y="371" width="66" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Show"/>
+                                <connections>
+                                    <action selector="btnShowToast2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="SsZ-o7-iE9"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="PWb-cM-0wM" firstAttribute="top" secondItem="ws5-yf-Xfl" secondAttribute="bottom" constant="20" id="8yq-JH-UJZ"/>
+                            <constraint firstItem="PWb-cM-0wM" firstAttribute="leading" secondItem="ws5-yf-Xfl" secondAttribute="leading" id="ZQR-pt-r2r"/>
                             <constraint firstItem="ws5-yf-Xfl" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="ZSo-6o-wNQ"/>
+                            <constraint firstItem="PWb-cM-0wM" firstAttribute="trailing" secondItem="ws5-yf-Xfl" secondAttribute="trailing" id="aid-ck-wIG"/>
                             <constraint firstItem="ws5-yf-Xfl" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="cNQ-Ej-F4n"/>
                         </constraints>
                     </view>

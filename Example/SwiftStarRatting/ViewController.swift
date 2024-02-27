@@ -26,6 +26,11 @@ class ViewController: UIViewController {
         let toast = Toast.text("Safari pasted from Notes")
         toast.show()
     }
+    
+    @IBAction func btnShowToast2(_ sender: UIButton) {
+        let toast = Toast.text("Success", subtitle: "This sample toast library")
+        toast.show()
+    }
 
 }
 

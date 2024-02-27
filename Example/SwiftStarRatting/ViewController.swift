@@ -31,6 +31,5 @@ class ViewController: UIViewController {
         let toast = Toast.text("Success", subtitle: "This sample toast library")
         toast.show()
     }
-
 }
 
